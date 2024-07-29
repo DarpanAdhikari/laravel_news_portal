@@ -93,30 +93,6 @@
                 </div>
             </div>
             <div class="flex justify-content-end">
-                <div class="time flex items-center justify-center rounded-full">
-                    <a><i class="far fa-clock"></i></a>
-                    <span class="time-tooltip">{{ __('time')['recently'] }} {{ __('time')['update'] }}</span>
-                    @php
-                        $recently = __('time')['recently'];
-                        $update = __('time')['update'];
-                    @endphp
-                    {{-- <x-up-to-bottom-drawer name="{{ $recently }} {{ $update }}"> --}}
-                        <div class="flex flex-wrap gap-4 justify-center max-h-[60vh] w-full overflow-y-auto">
-                            <figure class="relative max-w-sm cursor-pointer">
-                                <a href="#">
-                                    <img class="rounded-lg h-[195px] max-w-[240px]"
-                                        src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg"
-                                        alt="image description">
-                                </a>
-                                <figcaption
-                                    class="absolute px-4 text-lg text-gray-50 bottom-6 transition-all duration-300 hover:bg-gray-300 hover:text-blue-700 hover:underline">
-                                    <small>Do you want to get notified when a new component is added to
-                                        Flowbite?</small>
-                                </figcaption>
-                            </figure>
-                        </div>
-                    </x-up-to-bottom-drawer>
-                </div>
                 <div class="time notification flex items-center hover:text-[#70c9ff] justify-center relative rounded-full"
                     data-dropdown-toggle="dropdownNotification">
                     <i class='bx bx-bell bx-tada'></i>
