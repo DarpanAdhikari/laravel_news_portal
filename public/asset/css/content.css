@@ -1,0 +1,124 @@
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.wrapper {
+    padding: 40px 0;
+}
+.wrapper-title {
+    flex: 0 0 100%;
+}
+.wrapper-title h2 {
+    margin: 0 0 30px;
+    line-height: 1;
+    font-size: 39px;
+    font-weight: 600;
+    font-family: khand, sans-serif;
+    color: #f2f4f7;
+    display: flex;
+    align-items: center;
+    -webkit-text-stroke: 1px #2260bf;
+}
+
+.section .post-content {
+    border-radius: 4px;
+    overflow: hidden;
+    margin-bottom: 30px !important;
+    max-height: 350px;
+    height: max-content;
+}
+.post-content {
+    background-color: #f4f6f8;
+}
+@media (min-width: 1023px){
+    .section .post-content .post-img-wrap {
+    flex: 1;
+    max-width: 60%;
+    min-width: 60%;
+}
+}
+.section .post-content .post-img-wrap{
+    width: 100%;
+}
+.post-content .post-title-wrap {
+    align-self: center;
+    padding: 60px;
+}
+.post-title, .post-content .post-title-wrap h4, .post-title-wrap h4 {
+    hyphens: auto;
+    word-break: break-word;
+}
+.post-info>div {
+    font-weight: 700;
+    color: #d42325;
+}
+.post-upload {
+    display: none;
+}
+.post-upload>div {
+    margin-right: 24px;
+}
+.post-time>span {
+    vertical-align: middle;
+    display: inline-block;
+    font-weight: 500;
+}
+img {
+    object-position: center top;
+}
+img {
+    max-width: 100%;
+    vertical-align: top;
+}
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+@media (max-width: 767px){
+    .post-content .post-img-wrap a img {
+        border-radius: 0;
+        margin-bottom: 0;
+    }
+.wrapper {
+    padding: 20px 0;
+}
+.post-content .post-title-wrap {
+    padding: 20px;
+}
+.post-content .post-title-wrap h4 {
+    line-height: 1.2;
+}
+.post-content .post-title-wrap h4 {
+    font-size: 18px;
+    margin: 0;
+    font-weight: 900;
+}
+.post-title-wrap>p {
+    display: none;
+}
+.post-title-wrap p {
+    margin: 5px 0 0;
+}
+.post-upload {
+    justify-content: center;
+}
+.post-upload>div {
+    margin: 0 0 0 8px;
+}
+}
