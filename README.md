@@ -1,4 +1,5 @@
-<p align="center"></p>
+
+<p align="center">Built with Laravel, and Livewire, our portal features enhanced access control, real-time chat, subscriptions, Multi language, and instant email notifications. Enjoy seamless news delivery with dynamic role-based access and strategic advertisements.</p>
 
 <p align="center">
       <img src="https://darpanadhikari.com.np/addition/images/news%20portal.png" alt="site view" height="auto">
