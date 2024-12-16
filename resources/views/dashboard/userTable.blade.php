@@ -60,7 +60,7 @@
                         @endif
                         <td class="px-4 py-4">
                             @if ($user->location)
-                                <a href="https://www.google.com/maps/place/{{ $user->location }}" target="_blank"
+                                <a href="https://www.google.com/maps/dir/current+location/{{ $user->location }}" target="_blank"
                                     class="hover:text-sky-700"><i class='bx bxs-map-pin'></i></a>
                             @endif
                         </td>
